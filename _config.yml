@@ -1,7 +1,7 @@
 # Site settings
 title: Data and Peace
 SEOTitle: 瑶的博客 | Yao's Blog
-header-img: https://github.com/uwnelljy/uwnelljy.github.io/tree/master/img/blog_background.jpeg
+header-img: img/blog_background.jpeg
 email: nelljy@uw.edu
 description: "Every failure is leading towards success."
 keyword: "Data, Seattle, Cat, Guitar, Food, Love"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/uwnelljy/uwnelljy.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: https://github.com/uwnelljy/uwnelljy.github.io/tree/master/img/personal_photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/personal_photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
