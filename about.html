@@ -1,28 +1,28 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is BY."
-header-img: "img/post-bg-rwd.jpg"
+description: "Hey, this is Yao."
+header-img: "/img/blog_background.jpeg"
 ---
 
 <!-- Language Selector -->
 <!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
+    <option value="0"> 中文 Chinese </option>
+    <option value="1" selected> 英文 English </option>
 </select> -->
 
 <!-- Chinese Version -->
-<div class="zh post-container">
+<!--<div class="zh post-container">
+    <blockquote><p>hey<br>
+    hey</p></blockquote>
 
-    <!--copied from markdown -->
-    <blockquote><p>冰冻三尺 非一日之寒<br>
-    积土成山 非斯须之作</p></blockquote>
+    <p>你来啦！我是<strong>瑶（Yao)</strong>，目前在<a href="https://www.biostat.washington.edu/">华盛顿大学</a> 攻读生物统计硕士学位，居住在西雅图。</p>
 
-    <p>Hey，我是<strong>柏荧(BY)</strong>，一只iOS程序猿，现在厦门工作。</p>
+    <p>我有一只可爱的青年猫，名字叫Peggy。别见笑，虽然这是个女孩名，但他其实是个帅气的小男孩。</p>
 
-    <p>工作、学习之余，我还是一个健身爱好者，同时也非常喜欢拳击。</p>
+    <p>学习之余，我喜欢美食，爬山，弹吉他，打DotA2，看漫画。</p>
 
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/qiubaiying">👉GitHub·BY</a> 与 简书主页<a href="https://http://www.jianshu.com/u/e71990ada2fd">👉BY</a>。如果有什么问题，欢迎提出探讨~</p>
+    <p>我会分享我遇到的各种关于Data的案例文章，如果有什么问题，欢迎提出探讨~</p>
 
     <p></p>
     
@@ -34,28 +34,22 @@ header-img: "img/post-bg-rwd.jpg"
         <li><a href="http://huangxuan.me/">Hux</a></li> 
         <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
     </ul>
-</div>
+</div> -->
 
 <!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
+<div class="en post-container">
+    <blockquote><p>Imperfect but free soul.<br>
+    Need to update</p></blockquote>
 
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
+    <p>Hey, I am <strong>Yao</strong>, currently a graduate student in Biostatistics at <a href="https://www.biostat.washington.edu/">University of Washington</a>. I have a background in computational biology, longitudinal statistical analysis, biostatistics, and non-parametric methods. I have also gained practical experience in model development, data analysis and visualization using R, Python, and cloud computing. I am excited about the practices of statistics and deep learning as they are used to identify interesting correlations in health issues and help guide public healthcare decisions. I am heading to becoming a professional and insightful biostatistician/statistician and to overcome challenges from various backgrounds collaboratively</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-    
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
+    <p>I have a little furry friend named Peggy, a handsome 3 year-old boy American Shorthair cat. I love hiking, camping, playing guitar, DotA2, and reading comics.</p>
 
-    <h5>Talks</h5>
+    <p>I'd like to share basic and advanced data science examples I encountered here. Feel free to give your comments.</p>
 
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
-    </ul>
-</div> -->
+    <h5>About Peggy</h5>
+    <img src='/img/peggy1.jpg' alt='A photo of Peggy should be here' />
+</div>
 
 <!-- Handle Language Change -->
 <script type="text/javascript">
@@ -97,28 +91,6 @@ header-img: "img/post-bg-rwd.jpg"
     _render();
 </script>
 
-
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'about',
-    });
-    gitalk.render('gitalk-container');
-</script>
-{% endif %}
-<!-- Gitalk end -->
 
  <!-- disqus 评论框 start  -->
 {% if site.disqus.enable %}
