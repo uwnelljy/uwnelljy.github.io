@@ -1,11 +1,11 @@
 # Site settings
 title: All About Data
-SEOTitle: Yao | All About Data
-header-img: img/post-bg-desk.jpg
+SEOTitle: 瑶的博客 | Yao's Blog
+header-img: img/blog_background.jpg
 email: nelljy@uw.edu
 description: "Every failure is leading towards success."
 keyword: "Data, Seattle"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+url: "http://uwnelljy.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/uwnelljy/uwnelljy.github.io.git" # you code repository
 
@@ -18,13 +18,10 @@ sidebar-avatar: /img/personal_photo.jpg      # use absolute URL, seeing it's use
 
 # SNS settings
 RSS: false
-# weibo_username: 
-# zhihu_username: 
 github_username: uwnelljy
 linkedin_username: Yao-Jiang-yaojiang33
 instagram_username: m3wm3wyao
 #facebook_username: 
-#jianshu_username: 
 #twitter_username: 
 
 
@@ -64,11 +61,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID:                             #生成的clientID
+  clientSecret:     #生成的clientSecret
+  repo: uwnelljy.github.io    #仓库名称
+  owner: uwnelljy    #github用户名
+  admin: uwnelljy
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
