@@ -12,7 +12,7 @@ github_repo: "https://github.com/uwnelljy/uwnelljy.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Need to update"
-sidebar-avatar: /img/personalphoto.JPEG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/personalphoto.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
