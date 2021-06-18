@@ -56,11 +56,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-layout: default
-comments: true
-disqus:
-    username: uwnelljy
-    enable: true
+disqus_username: nelljy
 
 
 # Gitalk
