@@ -57,6 +57,7 @@ kramdown:
 # 评论系统
 # Disqus（https://disqus.com/）
 disqus_username: uwnelljy
+disqus_enable: true
 
 # Gitalk
 #gitalk:
